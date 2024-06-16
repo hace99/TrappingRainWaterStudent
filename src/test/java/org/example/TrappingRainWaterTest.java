@@ -26,10 +26,4 @@ public class TrappingRainWaterTest {
         int[] heights = {3};
         assertEquals(0, trapper.trap(heights));
     }
-    @Test
-    public void emptyCase1(){
-        TrappingRainWater trapper = new TrappingRainWater();
-        int[] heights = {3};
-        assertEquals(0, trapper.trap(heights));
-    }
 }
